@@ -1,4 +1,4 @@
 class LocationSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :latitude, longitude
+  attributes :latitude, :longitude
 end
